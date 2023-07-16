@@ -19,8 +19,7 @@ banner = f"""
 
 def options():
   message = input("Message to spam: ")
-  duration = input("Message sending time(has to be less than 1
-): ")
+  duration = input("Message sending time(has to be less than 1): ")
   repeats = input("how many messages do you want to send: ")
 
   time.sleep(10)
@@ -28,7 +27,7 @@ def options():
   for i in range(int(repeats)):
     keyboard.write(message)
     keyboard.press_and_release("enter")
-    time.sleep(duration)
+    time.sleep(float(duration))
 
 
 def menuzinho():
