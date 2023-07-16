@@ -19,7 +19,8 @@ banner = f"""
 
 def options():
   message = input("Message to spam: ")
-  duration = input("Message sending time: ")
+  duration = input("Message sending time(has to be less than 1
+): ")
   repeats = input("how many messages do you want to send: ")
 
   time.sleep(10)
