@@ -3,17 +3,17 @@ import time
 from rich import print
 from rich.console import Console
 from rich.text import Text
+from rich.style import Style
 
-banner = """
+banner = f"""
 [bold][red]
                                _         _   
         ____ __  __ _ _ __ ___| |__  ___| |_ 
        (_-< '_ \/ _` | '  \___| '_ \/ _ \  _|
        /__/ .__/\__,_|_|_|_|  |_.__/\___/\__|
-          |_|                                
-  
-[/bold][/red]  
-          [yellow]    </> Code by nightsecurity    [/yellow]
+          |_|                  [/bold][/red]              
+                                                [bold][blue]Github: nightx64[/blue][/bold]               [bold magenta ]Twitter: nightx64[/bold magenta ]                                              
+                                                [dark_green]Instagram: nightsecurity2023[/dark_green]
 """
 
 
